@@ -22,8 +22,11 @@ public class cutImage {
 
 			System.out.println("Image cropped successfully: "+outputfile.getPath());
 
+
 		} catch (IOException e) {
 			e.printStackTrace();
+			//
+			
 		}
 	}
 }
