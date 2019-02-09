@@ -1,4 +1,4 @@
-//이미지를 3등분 할것임
+//이미지를 3등분 할것임 !
 
 import java.awt.image.BufferedImage;
 import java.io.File;
