@@ -9,7 +9,8 @@ public class test {
 		String filename = "hwp_new\\오답노트2.hwp";
 		HWPFile hwpFile = HWPReader.fromFile(filename);
 		//HWPFile hwpFileNew = new HWPFile();
-		//ss
+		//ssss
+
 		//HWPWriter.toFile(hwpFileNew, filename);
 		
 		
