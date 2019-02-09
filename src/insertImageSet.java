@@ -1,4 +1,4 @@
-//이미지 삽입과 관련된 상세 설정을 함
+//이미지 삽입과 관련된 상세 설정을 함 !
 
 import java.awt.Rectangle;
 import java.io.File;
