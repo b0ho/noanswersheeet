@@ -1,4 +1,4 @@
-//테이블을 생성 - 표지마다 이름을 생성
+//테이블을 생성 - 표지마다 이름을 생성!!
 
 import java.io.UnsupportedEncodingException;
 
@@ -36,6 +36,7 @@ import hwplib.object.docinfo.borderfill.BorderType;
 import hwplib.object.docinfo.borderfill.SlashDiagonalShape;
 import hwplib.object.docinfo.borderfill.fillinfo.PatternFill;
 import hwplib.object.docinfo.borderfill.fillinfo.PatternType;
+
 
 public class makeTable {
 	
@@ -134,7 +135,7 @@ public class makeTable {
         bf.getBottomBorder().setThickness(BorderThickness.MM0_5);
         bf.getBottomBorder().getColor().setValue(0x0);        
         bf.setDiagonalSort(BorderType.None);
-        bf.setDiagonalThickness(BorderThickness.MM0_5);;
+        bf.setDiagonalThickness(BorderThickness.MM0_5);
         bf.getDiagonalColor().setValue(0x0);
         
         bf.getFillInfo().getType().setPatternFill(true);
@@ -172,7 +173,7 @@ public class makeTable {
         bf.getBottomBorder().setThickness(BorderThickness.MM0_5);
         bf.getBottomBorder().getColor().setValue(0x0);        
         bf.setDiagonalSort(BorderType.None);
-        bf.setDiagonalThickness(BorderThickness.MM0_5);;
+        bf.setDiagonalThickness(BorderThickness.MM0_5);
         bf.getDiagonalColor().setValue(0x0);
         
         bf.getFillInfo().getType().setPatternFill(true);
@@ -240,7 +241,7 @@ public class makeTable {
 		// 셀의 문단 모양을 이미 만들어진 문단 모양으로 사용함
 		ph.setParaShapeId(1);	
 		// 셀의 스타일을이미 만들어진 스타일으로 사용함
-		ph.setStyleId((short) 1);;
+		ph.setStyleId((short) 1);
 		ph.getDivideSort().setDivideSection(false);
 		ph.getDivideSort().setDivideMultiColumn(false);
 		ph.getDivideSort().setDividePage(false);
