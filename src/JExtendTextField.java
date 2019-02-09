@@ -3,11 +3,6 @@
 import java.util.ArrayList;
 import javax.swing.text.*;
 
-/**
- * JTextField를 보조하는 클래스 입니다.
- * @author 강승민
- *
- */
 public class JExtendTextField extends PlainDocument {
 	private static final long serialVersionUID = -2596672324494951659L;
 	/** 차단 또는 허용할 문자를 담고있는 규격화된 문자열 입니다. */
