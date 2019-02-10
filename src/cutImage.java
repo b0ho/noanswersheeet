@@ -1,32 +1,30 @@
-//이미지를 3등분 할것임 !
+//이미지를 등분 하여 개별 문항으로 만듬
 
 import java.awt.image.BufferedImage;
 import java.io.File;
 import java.io.IOException;
-
 import javax.imageio.ImageIO;
 
 public class cutImage {
 
 	public static void main(String[] args) {
 		try {
-			BufferedImage originalImgage = ImageIO.read(new File("img_solusion_origin\\답안1회002.png"));
-			
-			System.out.println("Original Image Dimension: "+originalImgage.getWidth()+"x"+originalImgage.getHeight());
+			//불러올 이미지 선택
+			//*추후에는 폴더 단위로 불러야함
+			//*또한 문제를 자를 것인지 해설을 자를것인지 선택해야함
+			BufferedImage originalImgage = ImageIO.read(new File("img_solusion_origin/개강대비_문제_1회_1쪽.png"));
 
+			//잘라낼 범위 지정
 			BufferedImage SubImgage = originalImgage.getSubimage(100, 350, 2300, 950);
-			System.out.println("Cropped Image Dimension: "+SubImgage.getWidth()+"x"+SubImgage.getHeight());
 
-			File outputfile = new File("img_solusion\\답안1회002.png");
+			//저장할 위치 선택
+			//*읽어온 파일명을 기반하여 네이밍해야함
+			File outputfile = new File("img_solusion/개강대비_문제_1회_1번.png");
 			ImageIO.write(SubImgage, "png", outputfile);
-
-			System.out.println("Image cropped successfully: "+outputfile.getPath());
-
+			//*추후에는 위의과정을 분할 개수만큼 반복해야함
 
 		} catch (IOException e) {
 			e.printStackTrace();
-			//
-			
 		}
 	}
 }

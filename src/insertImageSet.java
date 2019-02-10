@@ -42,8 +42,8 @@ import hwplib.object.docinfo.borderfill.fillinfo.PictureEffect;
 
 public class insertImageSet {
 	
-
-	private final String imageFilePath = "img_qustion_origin\\박혜연002.png";
+	//분할해야하는 이미지 파일
+	private final String imageFilePath = "img_qustion_origin/박혜연002.png";
 	private final String imageFileExt = "png";
 	private final BinDataCompress compressMethod = BinDataCompress.ByStroageDefault;
 	

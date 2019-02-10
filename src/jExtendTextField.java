@@ -3,7 +3,7 @@
 import java.util.ArrayList;
 import javax.swing.text.*;
 
-public class JExtendTextField extends PlainDocument {
+public class jExtendTextField extends PlainDocument {
 	private static final long serialVersionUID = -2596672324494951659L;
 	/** 차단 또는 허용할 문자를 담고있는 규격화된 문자열 입니다. */
 	private String restrict = null;
@@ -29,21 +29,21 @@ public class JExtendTextField extends PlainDocument {
 	/**
 	 * 입력 가능한 문자열 길이 10, 모든 문자 입력 가능합니다.
 	 */
-	public JExtendTextField(){
+	public jExtendTextField(){
 		super();
 	}
 	/**
 	 * 입력 가능한 문자열 길이 n, 모든 문자 입력 가능합니다.
 	 * @param limit 제한 길이
 	 */
-	public JExtendTextField(int limit){
+	public jExtendTextField(int limit){
 		setLimit(limit);
 	}
 	/**
 	 * 입력 가능한 문자열 길이 10, restrict 규격에 따라 허용/차단 문자열이 정해집니다.
 	 * @param restrict 규격화된 문자열
 	 */
-	public JExtendTextField(String restrict){
+	public jExtendTextField(String restrict){
 		setRestrict(restrict);
 	}
 	
@@ -52,7 +52,7 @@ public class JExtendTextField extends PlainDocument {
 	 * @param restrict 규격화된 문자열
 	 * @param limit 제한 길이
 	 */
-	public JExtendTextField(String restrict, int limit){
+	public jExtendTextField(String restrict, int limit){
 		setRestrict(restrict);
 		setLimit(limit);
 	}

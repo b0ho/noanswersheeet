@@ -1,4 +1,4 @@
-//테이블을 생성 - 표지마다 이름을 생성!!
+//테이블을 생성에 대한 설정을함
 
 import java.io.UnsupportedEncodingException;
 
@@ -37,10 +37,8 @@ import hwplib.object.docinfo.borderfill.SlashDiagonalShape;
 import hwplib.object.docinfo.borderfill.fillinfo.PatternFill;
 import hwplib.object.docinfo.borderfill.fillinfo.PatternType;
 
+public class makeTableSet {
 
-public class makeTable {
-	
-	
 	private HWPFile hwpFile;
 	private ControlTable table;
 	private Row row;
