@@ -23,11 +23,11 @@ public class createSheet {
 
             //문제 이미지 추가
             insertImageSet tii = new insertImageSet();
-            tii.insertShapeWithImage(hwpFile);
+            tii.insertShapeWithImage(hwpFile, "img_question/개강대비_문제_1회_1번.png");
 
             //새로운 오답노트 생성
             //*로드 된 파일을 기반으로 네이밍해야함
-            String writePath = "hwp_new/개강대비_1회_정서영.hwp";
+            String writePath = "hwp_output/개강대비_1회_정서영.hwp";
             HWPWriter.toFile(hwpFile, writePath);
 
             //*최종적으로 학생답안 리스트를 받은 뒤 그만큼 반복해야함

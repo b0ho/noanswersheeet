@@ -41,9 +41,7 @@ import hwplib.object.docinfo.borderfill.fillinfo.ImageFillType;
 import hwplib.object.docinfo.borderfill.fillinfo.PictureEffect;
 
 public class insertImageSet {
-	
-	//분할해야하는 이미지 파일
-	private final String imageFilePath = "img_qustion_origin/박혜연002.png";
+	private String imagePath;
 	private final String imageFileExt = "png";
 	private final BinDataCompress compressMethod = BinDataCompress.ByStroageDefault;
 	
@@ -54,10 +52,11 @@ public class insertImageSet {
 	
 	private ControlRectangle rectangle;
 	private Rectangle shapePosition = new Rectangle(0, 100,  150, 250);
-	
-	
-	public void insertShapeWithImage(HWPFile hwpFile) throws IOException {
+
+
+	public void insertShapeWithImage(HWPFile hwpFile, String img_path) throws IOException {
 		this.hwpFile = hwpFile;
+		this.imagePath = img_path;
 
 		addBinData();
 		binDataID = addBinDataInDocInfo(streamIndex);
@@ -77,7 +76,7 @@ public class insertImageSet {
 	}
 
 	private byte[] loadFile() throws IOException {
-		File file = new File(imageFilePath);
+		File file = new File(imagePath);
 		byte[] buffer = new byte[(int) file.length()];
 		InputStream ios = null;
 		try {
