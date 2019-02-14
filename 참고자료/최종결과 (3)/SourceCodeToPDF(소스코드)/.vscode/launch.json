@@ -1,0 +1,231 @@
+{
+    // IntelliSense를 사용하여 가능한 특성에 대해 알아보세요.
+    // 기존 특성에 대한 설명을 보려면 가리킵니다.
+    // 자세한 내용을 보려면 https://go.microsoft.com/fwlink/?linkid=830387을(를) 방문하세요.
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Debug (Launch) - Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-PdfContentReaderTool<SourceCodeToPDF>",
+            "request": "launch",
+            "mainClass": "com.itextpdf.text.pdf.parser.PdfContentReaderTool",
+            "projectName": "SourceCodeToPDF"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Logo<SourceCodeToPDF>",
+            "request": "launch",
+            "mainClass": "display.Logo",
+            "projectName": "SourceCodeToPDF"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-LICENSE<SourceCodeToPDF>",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.LICENSE",
+            "projectName": "SourceCodeToPDF"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-LICENSE<SourceCodeToPDF>(1)",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.LICENSE",
+            "projectName": "SourceCodeToPDF"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Dump<SourceCodeToPDF>",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.asn1.util.Dump",
+            "projectName": "SourceCodeToPDF"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Dump<SourceCodeToPDF>(1)",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.asn1.util.Dump",
+            "projectName": "SourceCodeToPDF"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-DESExample<SourceCodeToPDF>",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.crypto.examples.DESExample",
+            "projectName": "SourceCodeToPDF"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-DESExample<SourceCodeToPDF>(1)",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.crypto.examples.DESExample",
+            "projectName": "SourceCodeToPDF"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-JPAKEExample<SourceCodeToPDF>",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.crypto.examples.JPAKEExample",
+            "projectName": "SourceCodeToPDF"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-PKCS12Example<SourceCodeToPDF>",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.jce.examples.PKCS12Example",
+            "projectName": "SourceCodeToPDF"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-CreateCompressedMail<SourceCodeToPDF>",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.mail.smime.examples.CreateCompressedMail",
+            "projectName": "SourceCodeToPDF"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-CreateEncryptedMail<SourceCodeToPDF>",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.mail.smime.examples.CreateEncryptedMail",
+            "projectName": "SourceCodeToPDF"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-CreateLargeCompressedMail<SourceCodeToPDF>",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.mail.smime.examples.CreateLargeCompressedMail",
+            "projectName": "SourceCodeToPDF"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-CreateLargeEncryptedMail<SourceCodeToPDF>",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.mail.smime.examples.CreateLargeEncryptedMail",
+            "projectName": "SourceCodeToPDF"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-CreateLargeSignedMail<SourceCodeToPDF>",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.mail.smime.examples.CreateLargeSignedMail",
+            "projectName": "SourceCodeToPDF"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-CreateSignedMail<SourceCodeToPDF>",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.mail.smime.examples.CreateSignedMail",
+            "projectName": "SourceCodeToPDF"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-CreateSignedMultipartMail<SourceCodeToPDF>",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.mail.smime.examples.CreateSignedMultipartMail",
+            "projectName": "SourceCodeToPDF"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-ReadCompressedMail<SourceCodeToPDF>",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.mail.smime.examples.ReadCompressedMail",
+            "projectName": "SourceCodeToPDF"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-ReadEncryptedMail<SourceCodeToPDF>",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.mail.smime.examples.ReadEncryptedMail",
+            "projectName": "SourceCodeToPDF"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-ReadLargeCompressedMail<SourceCodeToPDF>",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.mail.smime.examples.ReadLargeCompressedMail",
+            "projectName": "SourceCodeToPDF"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-ReadLargeEncryptedMail<SourceCodeToPDF>",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.mail.smime.examples.ReadLargeEncryptedMail",
+            "projectName": "SourceCodeToPDF"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-ReadLargeSignedMail<SourceCodeToPDF>",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.mail.smime.examples.ReadLargeSignedMail",
+            "projectName": "SourceCodeToPDF"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-ReadSignedMail<SourceCodeToPDF>",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.mail.smime.examples.ReadSignedMail",
+            "projectName": "SourceCodeToPDF"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-SendSignedAndEncryptedMail<SourceCodeToPDF>",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.mail.smime.examples.SendSignedAndEncryptedMail",
+            "projectName": "SourceCodeToPDF"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-ValidateSignedMail<SourceCodeToPDF>",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.mail.smime.examples.ValidateSignedMail",
+            "projectName": "SourceCodeToPDF"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-DiscoverEndomorphisms<SourceCodeToPDF>",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.math.ec.tools.DiscoverEndomorphisms",
+            "projectName": "SourceCodeToPDF"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-F2mSqrtOptimizer<SourceCodeToPDF>",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.math.ec.tools.F2mSqrtOptimizer",
+            "projectName": "SourceCodeToPDF"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-TraceOptimizer<SourceCodeToPDF>",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.math.ec.tools.TraceOptimizer",
+            "projectName": "SourceCodeToPDF"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-AllTests<SourceCodeToPDF>",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.util.AllTests",
+            "projectName": "SourceCodeToPDF"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-AllTests<SourceCodeToPDF>(1)",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.util.io.pem.AllTests",
+            "projectName": "SourceCodeToPDF"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-AttrCertExample<SourceCodeToPDF>",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.x509.examples.AttrCertExample",
+            "projectName": "SourceCodeToPDF"
+        }
+    ]
+}
