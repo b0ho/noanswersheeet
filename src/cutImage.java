@@ -23,6 +23,8 @@ public class cutImage {
 			ImageIO.write(SubImgage, "png", outputfile);
 			//*추후에는 위의과정을 분할 개수만큼 반복해야함
 
+			System.out.println("자르기 완료");
+
 		} catch (IOException e) {
 			e.printStackTrace();
 		}
