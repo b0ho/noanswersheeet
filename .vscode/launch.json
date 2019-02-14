@@ -1,0 +1,517 @@
+{
+    // IntelliSense를 사용하여 가능한 특성에 대해 알아보세요.
+    // 기존 특성에 대한 설명을 보려면 가리킵니다.
+    // 자세한 내용을 보려면 https://go.microsoft.com/fwlink/?linkid=830387을(를) 방문하세요.
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Debug (Launch) - Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-PdfContentReaderTool<SourceCodeToPDF>",
+            "request": "launch",
+            "mainClass": "com.itextpdf.text.pdf.parser.PdfContentReaderTool",
+            "projectName": "SourceCodeToPDF"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Logo<SourceCodeToPDF>",
+            "request": "launch",
+            "mainClass": "display.Logo",
+            "projectName": "SourceCodeToPDF"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-LICENSE<SourceCodeToPDF>",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.LICENSE",
+            "projectName": "SourceCodeToPDF"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-LICENSE<SourceCodeToPDF>(1)",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.LICENSE",
+            "projectName": "SourceCodeToPDF"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Dump<SourceCodeToPDF>",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.asn1.util.Dump",
+            "projectName": "SourceCodeToPDF"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Dump<SourceCodeToPDF>(1)",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.asn1.util.Dump",
+            "projectName": "SourceCodeToPDF"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-DESExample<SourceCodeToPDF>",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.crypto.examples.DESExample",
+            "projectName": "SourceCodeToPDF"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-DESExample<SourceCodeToPDF>(1)",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.crypto.examples.DESExample",
+            "projectName": "SourceCodeToPDF"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-JPAKEExample<SourceCodeToPDF>",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.crypto.examples.JPAKEExample",
+            "projectName": "SourceCodeToPDF"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-PKCS12Example<SourceCodeToPDF>",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.jce.examples.PKCS12Example",
+            "projectName": "SourceCodeToPDF"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-CreateCompressedMail<SourceCodeToPDF>",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.mail.smime.examples.CreateCompressedMail",
+            "projectName": "SourceCodeToPDF"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-CreateEncryptedMail<SourceCodeToPDF>",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.mail.smime.examples.CreateEncryptedMail",
+            "projectName": "SourceCodeToPDF"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-CreateLargeCompressedMail<SourceCodeToPDF>",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.mail.smime.examples.CreateLargeCompressedMail",
+            "projectName": "SourceCodeToPDF"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-CreateLargeEncryptedMail<SourceCodeToPDF>",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.mail.smime.examples.CreateLargeEncryptedMail",
+            "projectName": "SourceCodeToPDF"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-CreateLargeSignedMail<SourceCodeToPDF>",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.mail.smime.examples.CreateLargeSignedMail",
+            "projectName": "SourceCodeToPDF"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-CreateSignedMail<SourceCodeToPDF>",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.mail.smime.examples.CreateSignedMail",
+            "projectName": "SourceCodeToPDF"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-CreateSignedMultipartMail<SourceCodeToPDF>",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.mail.smime.examples.CreateSignedMultipartMail",
+            "projectName": "SourceCodeToPDF"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-ReadCompressedMail<SourceCodeToPDF>",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.mail.smime.examples.ReadCompressedMail",
+            "projectName": "SourceCodeToPDF"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-ReadEncryptedMail<SourceCodeToPDF>",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.mail.smime.examples.ReadEncryptedMail",
+            "projectName": "SourceCodeToPDF"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-ReadLargeCompressedMail<SourceCodeToPDF>",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.mail.smime.examples.ReadLargeCompressedMail",
+            "projectName": "SourceCodeToPDF"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-ReadLargeEncryptedMail<SourceCodeToPDF>",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.mail.smime.examples.ReadLargeEncryptedMail",
+            "projectName": "SourceCodeToPDF"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-ReadLargeSignedMail<SourceCodeToPDF>",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.mail.smime.examples.ReadLargeSignedMail",
+            "projectName": "SourceCodeToPDF"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-ReadSignedMail<SourceCodeToPDF>",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.mail.smime.examples.ReadSignedMail",
+            "projectName": "SourceCodeToPDF"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-SendSignedAndEncryptedMail<SourceCodeToPDF>",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.mail.smime.examples.SendSignedAndEncryptedMail",
+            "projectName": "SourceCodeToPDF"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-ValidateSignedMail<SourceCodeToPDF>",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.mail.smime.examples.ValidateSignedMail",
+            "projectName": "SourceCodeToPDF"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-DiscoverEndomorphisms<SourceCodeToPDF>",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.math.ec.tools.DiscoverEndomorphisms",
+            "projectName": "SourceCodeToPDF"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-F2mSqrtOptimizer<SourceCodeToPDF>",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.math.ec.tools.F2mSqrtOptimizer",
+            "projectName": "SourceCodeToPDF"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-TraceOptimizer<SourceCodeToPDF>",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.math.ec.tools.TraceOptimizer",
+            "projectName": "SourceCodeToPDF"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-AllTests<SourceCodeToPDF>",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.util.AllTests",
+            "projectName": "SourceCodeToPDF"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-AllTests<SourceCodeToPDF>(1)",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.util.io.pem.AllTests",
+            "projectName": "SourceCodeToPDF"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-AttrCertExample<SourceCodeToPDF>",
+            "request": "launch",
+            "mainClass": "org.bouncycastle.x509.examples.AttrCertExample",
+            "projectName": "SourceCodeToPDF"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-TestChangePaperSize<dfHwpLib>",
+            "request": "launch",
+            "mainClass": "kr.dogfoot.hwplib.test.TestChangePaperSize",
+            "projectName": "dfHwpLib"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-TestEditingHWPFile<dfHwpLib>",
+            "request": "launch",
+            "mainClass": "kr.dogfoot.hwplib.test.TestEditingHWPFile",
+            "projectName": "dfHwpLib"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-TestExtractingText<dfHwpLib>",
+            "request": "launch",
+            "mainClass": "kr.dogfoot.hwplib.test.TestExtractingText",
+            "projectName": "dfHwpLib"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-TestFindControl<dfHwpLib>",
+            "request": "launch",
+            "mainClass": "kr.dogfoot.hwplib.test.TestFindControl",
+            "projectName": "dfHwpLib"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-TestGettingClickHereFieldText<dfHwpLib>",
+            "request": "launch",
+            "mainClass": "kr.dogfoot.hwplib.test.TestGettingClickHereFieldText",
+            "projectName": "dfHwpLib"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-TestInsertImage<dfHwpLib>",
+            "request": "launch",
+            "mainClass": "kr.dogfoot.hwplib.test.TestInsertImage",
+            "projectName": "dfHwpLib"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-TestMakingCharShape<dfHwpLib>",
+            "request": "launch",
+            "mainClass": "kr.dogfoot.hwplib.test.TestMakingCharShape",
+            "projectName": "dfHwpLib"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-TestMakingTable<dfHwpLib>",
+            "request": "launch",
+            "mainClass": "kr.dogfoot.hwplib.test.TestMakingTable",
+            "projectName": "dfHwpLib"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-TestMergingCell<dfHwpLib>",
+            "request": "launch",
+            "mainClass": "kr.dogfoot.hwplib.test.TestMergingCell",
+            "projectName": "dfHwpLib"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-TestParagraphAdder<dfHwpLib>",
+            "request": "launch",
+            "mainClass": "kr.dogfoot.hwplib.test.TestParagraphAdder",
+            "projectName": "dfHwpLib"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-TestReWritingHWPFile<dfHwpLib>",
+            "request": "launch",
+            "mainClass": "kr.dogfoot.hwplib.test.TestReWritingHWPFile",
+            "projectName": "dfHwpLib"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-TestReadingFromURL<dfHwpLib>",
+            "request": "launch",
+            "mainClass": "kr.dogfoot.hwplib.test.TestReadingFromURL",
+            "projectName": "dfHwpLib"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-TestReadingHWPFile<dfHwpLib>",
+            "request": "launch",
+            "mainClass": "kr.dogfoot.hwplib.test.TestReadingHWPFile",
+            "projectName": "dfHwpLib"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-TestSetClickHereFieldText<dfHwpLib>",
+            "request": "launch",
+            "mainClass": "kr.dogfoot.hwplib.test.TestSetClickHereFieldText",
+            "projectName": "dfHwpLib"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-TestSetField<dfHwpLib>",
+            "request": "launch",
+            "mainClass": "kr.dogfoot.hwplib.test.TestSetField",
+            "projectName": "dfHwpLib"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Version<dfHwpLib>",
+            "request": "launch",
+            "mainClass": "org.apache.poi.Version",
+            "projectName": "dfHwpLib"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-EscherDump<dfHwpLib>",
+            "request": "launch",
+            "mainClass": "org.apache.poi.ddf.EscherDump",
+            "projectName": "dfHwpLib"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-RecordGenerator<dfHwpLib>",
+            "request": "launch",
+            "mainClass": "org.apache.poi.dev.RecordGenerator",
+            "projectName": "dfHwpLib"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-HPSFPropertiesExtractor<dfHwpLib>",
+            "request": "launch",
+            "mainClass": "org.apache.poi.hpsf.extractor.HPSFPropertiesExtractor",
+            "projectName": "dfHwpLib"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-PropertyIDMap<dfHwpLib>",
+            "request": "launch",
+            "mainClass": "org.apache.poi.hpsf.wellknown.PropertyIDMap",
+            "projectName": "dfHwpLib"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-BiffDrawingToXml<dfHwpLib>",
+            "request": "launch",
+            "mainClass": "org.apache.poi.hssf.dev.BiffDrawingToXml",
+            "projectName": "dfHwpLib"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-BiffViewer<dfHwpLib>",
+            "request": "launch",
+            "mainClass": "org.apache.poi.hssf.dev.BiffViewer",
+            "projectName": "dfHwpLib"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-EFBiffViewer<dfHwpLib>",
+            "request": "launch",
+            "mainClass": "org.apache.poi.hssf.dev.EFBiffViewer",
+            "projectName": "dfHwpLib"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-FormulaViewer<dfHwpLib>",
+            "request": "launch",
+            "mainClass": "org.apache.poi.hssf.dev.FormulaViewer",
+            "projectName": "dfHwpLib"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-ReSave<dfHwpLib>",
+            "request": "launch",
+            "mainClass": "org.apache.poi.hssf.dev.ReSave",
+            "projectName": "dfHwpLib"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-RecordLister<dfHwpLib>",
+            "request": "launch",
+            "mainClass": "org.apache.poi.hssf.dev.RecordLister",
+            "projectName": "dfHwpLib"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-ExcelExtractor<dfHwpLib>",
+            "request": "launch",
+            "mainClass": "org.apache.poi.hssf.extractor.ExcelExtractor",
+            "projectName": "dfHwpLib"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-OldExcelExtractor<dfHwpLib>",
+            "request": "launch",
+            "mainClass": "org.apache.poi.hssf.extractor.OldExcelExtractor",
+            "projectName": "dfHwpLib"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-POIFSDump<dfHwpLib>",
+            "request": "launch",
+            "mainClass": "org.apache.poi.poifs.dev.POIFSDump",
+            "projectName": "dfHwpLib"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-POIFSHeaderDumper<dfHwpLib>",
+            "request": "launch",
+            "mainClass": "org.apache.poi.poifs.dev.POIFSHeaderDumper",
+            "projectName": "dfHwpLib"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-POIFSLister<dfHwpLib>",
+            "request": "launch",
+            "mainClass": "org.apache.poi.poifs.dev.POIFSLister",
+            "projectName": "dfHwpLib"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-POIFSViewer<dfHwpLib>",
+            "request": "launch",
+            "mainClass": "org.apache.poi.poifs.dev.POIFSViewer",
+            "projectName": "dfHwpLib"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-POIFSReader<dfHwpLib>",
+            "request": "launch",
+            "mainClass": "org.apache.poi.poifs.eventfilesystem.POIFSReader",
+            "projectName": "dfHwpLib"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-NPOIFSFileSystem<dfHwpLib>",
+            "request": "launch",
+            "mainClass": "org.apache.poi.poifs.filesystem.NPOIFSFileSystem",
+            "projectName": "dfHwpLib"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-OPOIFSFileSystem<dfHwpLib>",
+            "request": "launch",
+            "mainClass": "org.apache.poi.poifs.filesystem.OPOIFSFileSystem",
+            "projectName": "dfHwpLib"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-POIFSFileSystem<dfHwpLib>",
+            "request": "launch",
+            "mainClass": "org.apache.poi.poifs.filesystem.POIFSFileSystem",
+            "projectName": "dfHwpLib"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-VBAMacroExtractor<dfHwpLib>",
+            "request": "launch",
+            "mainClass": "org.apache.poi.poifs.macros.VBAMacroExtractor",
+            "projectName": "dfHwpLib"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-DrawingDump<dfHwpLib>",
+            "request": "launch",
+            "mainClass": "org.apache.poi.util.DrawingDump",
+            "projectName": "dfHwpLib"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-FontMetricsDumper<dfHwpLib>",
+            "request": "launch",
+            "mainClass": "org.apache.poi.util.FontMetricsDumper",
+            "projectName": "dfHwpLib"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-HexDump<dfHwpLib>",
+            "request": "launch",
+            "mainClass": "org.apache.poi.util.HexDump",
+            "projectName": "dfHwpLib"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-createSheet",
+            "request": "launch",
+            "mainClass": "createSheet"
+        }
+    ]
+}
