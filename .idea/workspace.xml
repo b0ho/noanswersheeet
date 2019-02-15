@@ -1,11 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4eee9664-ede1-453f-bd8f-e8ca6d5c1ad2" name="Default Changelist" comment="reset2">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="4eee9664-ede1-453f-bd8f-e8ca6d5c1ad2" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/noanswersheet/createSheet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/noanswersheet/createSheet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cutImage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cutImage.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -22,7 +20,7 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/createSheet.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="244">
+            <state relative-caret-position="368">
               <caret line="26" column="54" lean-forward="true" selection-start-line="26" selection-start-column="54" selection-end-line="26" selection-end-column="54" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -165,7 +163,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1550155078464" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1550155080431" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="JAVA" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Libraries" />
@@ -285,7 +283,14 @@
       <option name="project" value="LOCAL" />
       <updated>1549788033195</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="new_init">
+      <created>1550155100826</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1550155100826</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TodoView">
@@ -299,7 +304,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="247" y="100" width="1440" height="932" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49802372" visible="true" weight="0.2768116" />
       <window_info id="Structure" order="1" sideWeight="0.5019763" side_tool="true" weight="0.17095852" />
@@ -310,7 +314,7 @@
       <window_info id="Favorites" order="6" sideWeight="0.5019763" side_tool="true" weight="0.17095852" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.2058011" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49928468" visible="true" weight="0.2982456" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49928468" weight="0.2982456" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39917126" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -344,7 +348,8 @@
     <MESSAGE value="qq" />
     <MESSAGE value="reset" />
     <MESSAGE value="reset2" />
-    <option name="LAST_COMMIT_MESSAGE" value="reset2" />
+    <MESSAGE value="new_init" />
+    <option name="LAST_COMMIT_MESSAGE" value="new_init" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/WindowMain.java" />
@@ -520,7 +525,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/createSheet.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="244">
+        <state relative-caret-position="368">
           <caret line="26" column="54" lean-forward="true" selection-start-line="26" selection-start-column="54" selection-end-line="26" selection-end-column="54" />
           <folding>
             <element signature="imports" expanded="true" />
