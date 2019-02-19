@@ -144,7 +144,6 @@ public class windowMain extends JFrame {
         pack();
     }
 
-
     /**
      * "변환하기"버튼을 클릭시 진행하는 이벤트 입니다.
      * @param evt 이벤트 객체
